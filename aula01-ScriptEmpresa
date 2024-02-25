@@ -1,0 +1,62 @@
+-- criar database
+CREATE DATABASE sptech;
+
+-- colocar o database em uso
+USE sptech;
+
+-- criar a tabela empresa
+CREATE TABLE empresa(
+id_empresa  int primary key,
+nome        varchar(50),
+responsavel varchar(30)
+);
+
+-- consultar a tabela
+select * from empresa;
+
+-- inserir um novo registro na tabela empresa
+insert into empresa (id_empresa, nome, responsavel) values 
+       (1, 'STEFANINI','KELLY');
+
+-- inserir varios registro na tabela empresa ao mesmo tempo
+insert into empresa values
+       (2, 'RAPPI',	'JORGE'),
+       (3, 'C6', 'RODOLFO'),
+       (4, 'ACCENTURE', 'BRAIAN');
+--
+create table curso(
+id     int not null primary key,
+nome   varchar(30)
+);
+
+-- inserir dados em lote na tabela curso
+insert into curso(id, nome)
+values (100, 'ADS'),
+	(200, 'CCO'),
+       (300, 'SIS');
+       
+-- consultar dados inseridos na tabela curso
+select * from curso;   
+
+create table periodo(
+id	    int not null primary key,
+periodo varchar(10)
+);
+
+-- inserir dados na tabela periodo
+insert into periodo (id, periodo) 
+values (20, '2024/1'),
+       (21, '2023/2');
+
+select * from periodo;
+
+
+
+       
+       
+    
+
+
+
+
+
