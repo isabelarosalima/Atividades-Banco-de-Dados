@@ -1,0 +1,17 @@
+-- Criar a tabela chamada Curso para conter os dados: idCurso, nome (tamanho 50), sigla 
+-- (tamanho 3), coordenador, sendo que idCurso é a chave primária da tabela.
+-- Inserir dados na tabela, procure inserir pelo menos 3 cursos.
+-- Execute os comandos para:
+-- a) Exibir todos os dados da tabela.
+-- b) Exibir apenas os coordenadores dos cursos.
+-- c) Exibir apenas os dados dos cursos de uma determinada sigla.
+-- d) Exibir os dados da tabela ordenados pelo nome do curso.
+-- e) Exibir os dados da tabela ordenados pelo nome do coordenador em ordem 
+-- decrescente.
+-- f) Exibir os dados da tabela, dos cursos cujo nome comece com uma determinada letra.
+-- g) Exibir os dados da tabela, dos cursos cujo nome termine com uma determinada letra.
+-- h) Exibir os dados da tabela, dos cursos cujo nome tenha como segunda letra uma 
+-- determinada letra.
+-- i) Exibir os dados da tabela, dos cursos cujo nome tenha como penúltima letra uma 
+-- determinada letra.
+-- j) Elimine a tabela
