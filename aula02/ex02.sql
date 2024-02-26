@@ -3,7 +3,7 @@ USE sprint1;
 
 -- Criar a tabela chamada Musica para conter os dados: idMusica, titulo (tamanho 40), artista(tamanho 40), genero (tamanho 40), sendo que idMusica é a chave primária da tabela.
 CREATE TABLE musica (
-    idMusica int primary key not null,
+    idMusica INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     titulo varchar(40), 
     artista varchar(40),
     genero varchar(40)

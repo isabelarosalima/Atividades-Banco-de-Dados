@@ -1,6 +1,6 @@
 -- Criar a tabela chamada Filme para conter os dados: idFilme, título (tamanho 50), genero(tamanho 40), diretor (tamanho 40), sendo que idFilme é a chave primária da tabela.
 CREATE TABLE filme (
-    idFilme int primary key not null,
+    idFilme INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     titulo varchar(50),
     genero varchar(40),
     diretor varchar(40)

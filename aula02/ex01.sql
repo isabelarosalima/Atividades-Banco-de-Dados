@@ -5,7 +5,7 @@ USE sprint1;
 -- • Criar a tabela chamada Atleta para conter os dados: idAtleta (int e chave primária da tabela), nome (varchar, tamanho 40), modalidade (varchar, tamanho 40), qtdMedalha(int, representando a quantidade de medalhas que o atleta possui);
 
 CREATE TABLE atleta (
-idAtleta int primary key not null,
+idAtleta INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
 nome varchar(40),
 modalidade varchar(40),
 qntMedalha int
